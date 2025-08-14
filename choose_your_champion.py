@@ -101,7 +101,7 @@ def login(name: str, passcode: str) -> Optional[dict]:
     return None
 
 
-def ensure_default_admin()
+def ensure_default_admin():
     ensure_settings_table():
     # For first run convenience; change/remove in production.
     conn = get_conn()
